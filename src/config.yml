@@ -1,0 +1,12 @@
+sources:
+  - Checksum.glyphs
+axisOrder:
+  - wdth
+  - wght
+familyName: Checksum
+buildStatic: true
+flattenComponents: false
+decomposeTransformedComponents: true
+vttSources:
+  Checksum[wdth,wght].ttf: vtt_hinting.ttx
+includeSourceFixes: true

@@ -1,0 +1,33 @@
+{
+    "font_id": "checksum-regular",
+    "font_family": "Checksum Regular",
+    "font_css_file": "checksum-regular.css",
+    "font_license": "license\/checksum-regular.txt",
+    "font_css_class": "font-checksum-regular",
+    "font_variants": [
+        {
+            "weight": "300",
+            "style": "regular",
+            "file": "fonts\/checksum-regular-300.ttf",
+            "css_class": "w300"
+        },
+        {
+            "weight": "400",
+            "style": "regular",
+            "file": "fonts\/checksum-regular-400.ttf",
+            "css_class": "w400"
+        },
+        {
+            "weight": "600",
+            "style": "regular",
+            "file": "fonts\/checksum-regular-600.ttf",
+            "css_class": "w600"
+        },
+        {
+            "weight": "700",
+            "style": "regular",
+            "file": "fonts\/checksum-regular-700.ttf",
+            "css_class": "w700"
+        }
+    ]
+}
