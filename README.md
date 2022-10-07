@@ -3,6 +3,26 @@
 > a typefont for hex encoded values 
 
 
+## Usage
+
+Prevent FOUT or FOIT. Use Font Loading API or Web Font Loader:
+
+```html
+<link rel="preload" href=(path to WOFF2 font) as="font" type="font/woff2" crossorigin="anonymous">
+```
+
+```html
+<script>
+  window.WebFontConfig = {
+    custom: {
+      families: ['Checksum'],
+    },
+  };
+</script>
+<script defer src="https://cdn.jsdelivr.net/npm/webfontloader@1.6.28/webfontloader.js" integrity="sha256-4O4pS1SH31ZqrSO2A/2QJTVjTPqVe+jnYgOWUVr7EEc=" crossorigin="anonymous"></script>
+```
+
+
 ```css
 @font-face {
   font-family: 'KaTeX_Main';
