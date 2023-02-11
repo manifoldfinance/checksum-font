@@ -2,6 +2,9 @@
 
 > a typefont for hex encoded values 
 
+Checksum font is experimental typeface that would be able to reflect checksum  encoding with styling in addition to the upper and lower case characters.
+
+Checksum leverages Apple’s Scancardium3 font characteristics. That font is responsible for enabling iPhones to be able to scam Gift Card Serial numbers without a QR Code: it detects the string because of the typeface match.  We want to do something similar for webpages to enable users to scam an address or tx hash string without the clutter of QR and also enable stronger visual aides to provide better accessibility to hard of sight users. 
 
 ## Usage
 
