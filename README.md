@@ -4,6 +4,11 @@
 
 Checksum font is experimental typeface that would be able to reflect checksum  encoding with styling in addition to the upper and lower case characters.
 
+"Contextual Alternates" OpenType layout feature: It formats hexadecimal numbers (starting with 0x) with shorter uppercase letters, so they are at the same height as the numbers.
+
+>[!NOTE]
+> You can control those alternates in your editor’s settings, e.g. in Visual Studio Code by adding "editor.fontLigatures": "'calt'" to your settings.json.
+
 Checksum leverages Apple’s Scancardium3 font characteristics. That font is responsible for enabling iPhones to be able to scan Gift Card Serial numbers without a QR Code: it detects the string because of the typeface match.  We want to do something similar for webpages to enable users to scan an address or tx hash string without the clutter of QR and also enable stronger visual aides to provide better accessibility to hard of sight users. 
 
 ## Usage
